@@ -15,7 +15,7 @@ class Task {
     this.iconType = 'laptop',
   });
 
-  // Chuyển đối tượng Task thành Map để lưu vào SQLite (Module 9)
+  // Chuyển đối tượng Task thành Map để lưu vào SQLite
   Map<String, dynamic> toMap() {
     return {
       'id': id,
@@ -58,4 +58,3 @@ class Task {
     );
   }
 }
-
